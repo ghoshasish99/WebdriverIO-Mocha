@@ -1,0 +1,61 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Cafetownsend Test",
+    "children" : [ {
+      "name" : "should be able to login",
+      "uid" : "c1a6e72ba4e76d23",
+      "parentUid" : "1213f063713b5b1cdb72a3c170823788",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577238698094,
+        "stop" : 1577238702919,
+        "duration" : 4825
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should be able to create a user",
+      "uid" : "9db40ae85127420e",
+      "parentUid" : "1213f063713b5b1cdb72a3c170823788",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577238702920,
+        "stop" : 1577238709440,
+        "duration" : 6520
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should be able to delete a user",
+      "uid" : "80528a5081dfb80",
+      "parentUid" : "1213f063713b5b1cdb72a3c170823788",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577238709440,
+        "stop" : 1577238713677,
+        "duration" : 4237
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should be able to logout",
+      "uid" : "cb4f9c9a018c1b99",
+      "parentUid" : "1213f063713b5b1cdb72a3c170823788",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577238713677,
+        "stop" : 1577238718806,
+        "duration" : 5129
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "1213f063713b5b1cdb72a3c170823788"
+  } ]
+}

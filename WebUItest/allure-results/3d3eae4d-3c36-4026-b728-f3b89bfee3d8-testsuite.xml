@@ -1,0 +1,119 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1577309522223' stop='1577309553224'>
+    <name>Cafetownsend Test</name>
+    <title>Cafetownsend Test</title>
+    <test-cases>
+        <test-case start='1577309522223' status='passed' stop='1577309526013'>
+            <name>should be able to login</name>
+            <title>should be able to login</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1577309526014' status='passed' stop='1577309529455'>
+            <name>should be able to create user WebDriverIOFirstName1</name>
+            <title>should be able to create user WebDriverIOFirstName1</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1577309529456' status='passed' stop='1577309533712'>
+            <name>should be able to delete user WebDriverIOFirstName1</name>
+            <title>should be able to delete user WebDriverIOFirstName1</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1577309533712' status='passed' stop='1577309536721'>
+            <name>should be able to create user WebDriverIOFirstName2</name>
+            <title>should be able to create user WebDriverIOFirstName2</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1577309536722' status='passed' stop='1577309540953'>
+            <name>should be able to delete user WebDriverIOFirstName2</name>
+            <title>should be able to delete user WebDriverIOFirstName2</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1577309540953' status='passed' stop='1577309543862'>
+            <name>should be able to create user WebDriverIOFirstName3</name>
+            <title>should be able to create user WebDriverIOFirstName3</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1577309543863' status='passed' stop='1577309548089'>
+            <name>should be able to delete user WebDriverIOFirstName3</name>
+            <title>should be able to delete user WebDriverIOFirstName3</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1577309548089' status='passed' stop='1577309553223'>
+            <name>should be able to logout</name>
+            <title>should be able to logout</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

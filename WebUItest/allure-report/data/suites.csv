@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Dec 25 02:51:49 CET 2019","Wed Dec 25 02:51:53 CET 2019","4237","","Cafetownsend Test","","Cafetownsend Test","should be able to delete a user","should be able to delete a user",""
+"passed","Wed Dec 25 02:51:42 CET 2019","Wed Dec 25 02:51:49 CET 2019","6520","","Cafetownsend Test","","Cafetownsend Test","should be able to create a user","should be able to create a user",""
+"passed","Wed Dec 25 02:51:53 CET 2019","Wed Dec 25 02:51:58 CET 2019","5129","","Cafetownsend Test","","Cafetownsend Test","should be able to logout","should be able to logout",""
+"passed","Wed Dec 25 02:51:38 CET 2019","Wed Dec 25 02:51:42 CET 2019","4825","","Cafetownsend Test","","Cafetownsend Test","should be able to login","should be able to login",""

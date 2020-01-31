@@ -1,0 +1,77 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1577296056592' stop='1577296068076'>
+    <name>Cafetownsend Test</name>
+    <title>Cafetownsend Test</title>
+    <test-cases>
+        <test-case start='1577296056592' status='passed' stop='1577296060375'>
+            <name>should be able to login</name>
+            <title>should be able to login</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1577296060376' status='passed' stop='1577296063753'>
+            <name>should be able to create user</name>
+            <title>should be able to create user</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1577296063754' status='failed' stop='1577296067953'>
+            <name>should be able to delete user</name>
+            <title>should be able to delete user</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Expected &lt;[object Object]> not to be there, and yet, there it is.</message>
+                <stack-trace>AssertionError: Expected &lt;[object Object]> not to be there, and yet, there it is.
+                    at Context.&lt;anonymous> (C:\WebdriverIO\test\specs\E2E.js:37:59)
+                    at Context.executeSync (C:\WebdriverIO\test\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\WebdriverIO\test\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1577296067954' status='failed' stop='1577296068075'>
+            <name>should be able to logout</name>
+            <title>should be able to logout</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Expected &lt;[object Object]> to be there, but it is not there.</message>
+                <stack-trace>AssertionError: Expected &lt;[object Object]> to be there, but it is not there.
+                    at Context.&lt;anonymous> (C:\WebdriverIO\test\specs\E2E.js:42:51)
+                    at Context.executeSync (C:\WebdriverIO\test\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\WebdriverIO\test\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

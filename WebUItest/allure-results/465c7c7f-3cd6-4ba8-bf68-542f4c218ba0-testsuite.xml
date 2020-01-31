@@ -1,0 +1,77 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1577296394149' stop='1577296405803'>
+    <name>Cafetownsend Test</name>
+    <title>Cafetownsend Test</title>
+    <test-cases>
+        <test-case start='1577296394150' status='passed' stop='1577296398029'>
+            <name>should be able to login</name>
+            <title>should be able to login</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1577296398029' status='passed' stop='1577296401478'>
+            <name>should be able to create user</name>
+            <title>should be able to create user</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1577296401478' status='broken' stop='1577296405690'>
+            <name>should be able to delete user</name>
+            <title>should be able to delete user</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>DeleteUser.usertobeDeleted is not a function</message>
+                <stack-trace>TypeError: DeleteUser.usertobeDeleted is not a function
+                    at Context.&lt;anonymous> (C:\WebdriverIO\test\specs\E2E.js:37:32)
+                    at Context.executeSync (C:\WebdriverIO\test\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\WebdriverIO\test\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1577296405690' status='broken' stop='1577296405801'>
+            <name>should be able to logout</name>
+            <title>should be able to logout</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>LoginPage.usernameText is not a function</message>
+                <stack-trace>TypeError: LoginPage.usernameText is not a function
+                    at Context.&lt;anonymous> (C:\WebdriverIO\test\specs\E2E.js:42:31)
+                    at Context.executeSync (C:\WebdriverIO\test\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\WebdriverIO\test\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

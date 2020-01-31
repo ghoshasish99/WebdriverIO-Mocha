@@ -1,0 +1,58 @@
+{
+  "uid" : "cb4f9c9a018c1b99",
+  "name" : "should be able to logout",
+  "fullName" : "Cafetownsend Test.should be able to logout",
+  "historyId" : "ec4f018d0749793c371271fe6da45448",
+  "time" : {
+    "start" : 1577238713677,
+    "stop" : 1577238718806,
+    "duration" : 5129
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Cafetownsend Test"
+  }, {
+    "name" : "testClass",
+    "value" : "Cafetownsend Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "should be able to logout"
+  }, {
+    "name" : "package",
+    "value" : "Cafetownsend Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cb4f9c9a018c1b99.json",
+  "parameterValues" : [ "chrome" ]
+}

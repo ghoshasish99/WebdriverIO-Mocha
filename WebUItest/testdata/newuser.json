@@ -1,0 +1,20 @@
+[
+    {
+        "firstname" : "WebDriverIOFirstName1",
+        "lastname" : "WebDriverIOLastName1",
+        "email" : "WebDriverIOuser1@gmail.com",
+        "startdate" : "2019-11-23"
+    },
+    {
+        "firstname" : "WebDriverIOFirstName2",
+        "lastname" : "WebDriverIOLastName2",
+        "email" : "WebDriverIOuser2@gmail.com",
+        "startdate" : "2019-11-24"
+    },
+    {
+        "firstname" : "WebDriverIOFirstName3",
+        "lastname" : "WebDriverIOLastName3",
+        "email" : "WebDriverIOuser3@gmail.com",
+        "startdate" : "2019-11-25"
+    }
+]

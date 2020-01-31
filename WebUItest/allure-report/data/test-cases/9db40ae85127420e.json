@@ -1,0 +1,58 @@
+{
+  "uid" : "9db40ae85127420e",
+  "name" : "should be able to create a user",
+  "fullName" : "Cafetownsend Test.should be able to create a user",
+  "historyId" : "186e275d2ba77aba6a3d1ec9ad2c3497",
+  "time" : {
+    "start" : 1577238702920,
+    "stop" : 1577238709440,
+    "duration" : 6520
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Cafetownsend Test"
+  }, {
+    "name" : "testClass",
+    "value" : "Cafetownsend Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "should be able to create a user"
+  }, {
+    "name" : "package",
+    "value" : "Cafetownsend Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9db40ae85127420e.json",
+  "parameterValues" : [ "chrome" ]
+}

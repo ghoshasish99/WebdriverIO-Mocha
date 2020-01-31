@@ -1,0 +1,28 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1577291121782' stop='1577291121787'>
+    <name>Cafetownsend Test</name>
+    <title>Cafetownsend Test</title>
+    <test-cases>
+        <test-case start='1577291121782' status='broken' stop='1577291121786'>
+            <name>should be able to login</name>
+            <title>should be able to login</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>LoginPage.open is not a function</message>
+                <stack-trace>TypeError: LoginPage.open is not a function
+                    at Context.&lt;anonymous> (C:\WebdriverIO\test\specs\E2E.js:12:20)
+                    at Context.executeSync (C:\WebdriverIO\test\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\WebdriverIO\test\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
