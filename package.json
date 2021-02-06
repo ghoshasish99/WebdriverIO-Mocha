@@ -1,13 +1,13 @@
 {
-  "name": "test",
+  "name": "webdriverio-mocha",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "Angular.js"
+    "test": "npx wdio wdio.conf.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Ashish GhoshS",
   "license": "ISC",
   "devDependencies": {
     "@wdio/cli": "^6.12.1",
