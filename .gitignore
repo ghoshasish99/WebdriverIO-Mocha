@@ -107,4 +107,7 @@ node_modules
 #reports
 allure-results
 allure-report
-target
+junit-report
+
+# VSCode
+.vscode
