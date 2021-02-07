@@ -22,4 +22,5 @@ steps:
   inputs:
     testResultsFormat: 'JUnit'
     testResultsFiles: 'junit-report/*.xml'
+    mergeTestResults: true
     testRunTitle: 'WebdriverIO-Mocha Execution Report'
